@@ -1,1 +1,5 @@
-http://repo.whitehorsetc.com/${releasever}/current/$db/$basearch/
+http://repo.whitehorsetc.com/${releasever}/devel/$db/$basearch/
+ftp://toasterproj.phoenixinternet.com/pub/repo/qmt/CentOS/$releasever/devel/$db/$basearch/
+ftp://qmtmirror.rm.ht/pub/repo/qmt/CentOS/$releasever/devel/$db/$basearch/
+ftp://qmt-server.carlc.com/pub/repo/qmt/CentOS/$releasever/devel/$db/$basearch/
+ftp://server.lhotkanet.cz/pub/repo/qmt/CentOS/$releasever/devel/$db/$basearch/
