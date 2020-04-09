@@ -2,7 +2,7 @@
 [qmt-current]
 # Qmailtoaster current repository
 name=QMT Current Repository
-mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-mirrorlist-current
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-centos-8-mirrorlist-current
 #baseurl=http://repo.whitehorsetc.com/${releasever}/current/$db/$basearch/
 enabled=0
 gpgcheck=0
@@ -10,7 +10,7 @@ priority=7
 [qmt-testing]
 # Qmailtoaster testing repository
 name=QMT Testing Repository
-mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-mirrorlist-testing
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-centos-8-mirrorlist-testing
 #baseurl=http://repo.whitehorsetc.com/${releasever}/testing/$db/$basearch/
 enabled=0
 gpgcheck=0
@@ -18,7 +18,7 @@ priority=7
 [qmt-devel]
 # Qmailtoaster development repository
 name=QMT Development Repository
-mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-mirrorlist-development
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-centos-8-mirrorlist-development
 #baseurl=http://repo.whitehorsetc.com/${releasever}/development/$db/$basearch/
 enabled=0
 gpgcheck=0
