@@ -1,7 +1,7 @@
 # QMT Many Domain Mirrors CentOS 8
 [qmt-md-current]
 # Qmailtoaster current repository
-name=QMT Current Repository
+name=QMT Many Domain Current Repository
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-8-mirrorlist-current
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/$db/current/$basearch/
 enabled=0
@@ -9,7 +9,7 @@ gpgcheck=0
 priority=7
 [qmt-md-testing]
 # Qmailtoaster testing repository
-name=QMT Testing Repository
+name=QMT Many Domain Testing Repository
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-8-mirrorlist-testing
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/$db/testing/$basearch/
 enabled=1
@@ -17,7 +17,7 @@ gpgcheck=0
 priority=7
 [qmt-md-development]
 # Qmailtoaster development repository
-name=QMT Development Repository
+name=QMT Many Domain Development Repository
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-8-mirrorlist-development
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/$db/development/$basearch/
 enabled=0
