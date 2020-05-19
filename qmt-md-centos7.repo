@@ -1,5 +1,5 @@
 # QMT Mirrors Many Domain CentOS 7
-[qmt-current]
+[qmt-md-current]
 # Qmailtoaster current repository
 name=QMT Current Repository
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-7-mirrorlist-current
@@ -7,7 +7,7 @@ mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-
 enabled=0
 gpgcheck=0
 priority=7
-[qmt-testing]
+[qmt-md-testing]
 # Qmailtoaster testing repository
 name=QMT Testing Repository
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-7-mirrorlist-testing
@@ -15,7 +15,7 @@ mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-
 enabled=1
 gpgcheck=0
 priority=7
-[qmt-devel]
+[qmt-md-development]
 # Qmailtoaster development repository
 name=QMT Development Repository
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-7-mirrorlist-development
