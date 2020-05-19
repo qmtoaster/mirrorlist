@@ -1,0 +1,25 @@
+# QMT Mirrors CentOS 8
+[qmt-current]
+# Qmailtoaster current repository
+name=QMT Current Repository
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-8-mirrorlist-current
+#baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/$db/current/$basearch/
+enabled=0
+gpgcheck=0
+priority=7
+[qmt-testing]
+# Qmailtoaster testing repository
+name=QMT Testing Repository
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-8-mirrorlist-testing
+#baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/$db/testing/$basearch/
+enabled=1
+gpgcheck=0
+priority=7
+[qmt-devel]
+# Qmailtoaster development repository
+name=QMT Development Repository
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-8-mirrorlist-development
+#baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/$db/development/$basearch/
+enabled=0
+gpgcheck=0
+priority=7
