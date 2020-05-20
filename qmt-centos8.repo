@@ -1,4 +1,8 @@
 # QMT Mirrors CentOS 8
+# The variable (value) 'db' should have been
+# defined at QMT install time, and it resides
+# in the file '/etc/dnf/vars/db' and should 
+# contain mysql or mariadb
 [qmt-current]
 # Qmailtoaster current repository
 name=QMT Current Repository
