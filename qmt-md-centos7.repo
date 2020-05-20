@@ -6,7 +6,7 @@ mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/current/$basearch/
 enabled=0
 gpgcheck=0
-priority=7
+priority=6
 [qmt-md-testing]
 # Qmailtoaster testing repository
 name=QMT Testing Repository (Many Domain)
@@ -14,7 +14,7 @@ mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/testing/$basearch/
 enabled=1
 gpgcheck=0
-priority=7
+priority=6
 [qmt-md-development]
 # Qmailtoaster development repository
 name=QMT Development Repository (Many Domain)
@@ -22,4 +22,4 @@ mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/development/$basearch/
 enabled=0
 gpgcheck=0
-priority=7
+priority=6
