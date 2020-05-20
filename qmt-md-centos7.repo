@@ -12,7 +12,7 @@ priority=6
 name=QMT Testing Repository (Many Domain)
 mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-md-centos-7-mirrorlist-testing
 #baseurl=http://repo.whitehorsetc.com/$releasever/spl/sqlmd/testing/$basearch/
-enabled=1
+enabled=0
 gpgcheck=0
 priority=6
 [qmt-md-development]
