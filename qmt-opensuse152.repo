@@ -1,0 +1,36 @@
+[qmt-current]
+# Qmailtoaster testing repository
+name=QMT Current Repository
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-opensuse152-mirrorlist-current
+#baseurl=http://repo2.qmailtoaster.org/Leap-$releasever/current/$basearch/
+path=/
+type=rpm-md
+keeppackages=0
+autorefresh=1
+enabled=0
+priority=7
+gpgcheck=0
+[qmt-testing]
+# Qmailtoaster testing repository
+name=QMT Testing Repository
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-opensuse152-mirrorlist-testing
+#baseurl=http://repo2.qmailtoaster.org/Leap-$releasever/testing/$basearch/
+path=/
+type=rpm-md
+keeppackages=0
+autorefresh=1
+enabled=1
+priority=7
+gpgcheck=0
+[qmt-development]
+# Qmailtoaster testing repository
+name=QMT Development Repository
+mirrorlist=https://raw.githubusercontent.com/qmtoaster/mirrorlist/master/qmt-opensuse152-mirrorlist-development
+#baseurl=http://repo2.qmailtoaster.org/Leap-$releasever/development/$basearch/
+path=/
+type=rpm-md
+keeppackages=0
+autorefresh=1
+enabled=0
+priority=7
+gpgcheck=0
